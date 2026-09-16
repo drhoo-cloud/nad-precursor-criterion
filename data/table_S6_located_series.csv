@@ -1,7 +1,0 @@
-Series,Ref.,Range used,Fold,NAD⁺,η obs.,"Ceiling, unstressed","Ceiling, depleted",Verdict
-"Nicotinic acid, NHEK",16,10 µmol L⁻¹,—,1.30,—,no limit,no limit,clears
-"Nicotinic acid mononucleotide, NHEK",16,30–100 µmol L⁻¹,—,1.50,—,no limit,no limit,clears
-"Nicotinic acid riboside, NHEK",16,100 µmol L⁻¹,—,1.10,—,no limit,no limit,clears
-"Nicotinamide, NHEK",16,medium 0.3 → 100 µmol L⁻¹,333,1.00,0.00,never,never,fails both
-NAMPT capacity,20,6× enzyme activity,6,1.60,0.26,< 11 µmol L⁻¹,< 29 µmol L⁻¹,fails both at M0
-"Nicotinamide riboside, whole blood",17,"oral 100 → 1000 mg, day 56",10,2.39,0.34,< 15 µmol L⁻¹,< 39 µmol L⁻¹,fails unstressed

@@ -1,8 +1,0 @@
-Trial,"Compound, dose, duration, n",Substrate (NAM),NAMPT,Acid-branch intermediate,Methylated products,NAD⁺ in tissue,NAD⁺ in blood,Sirtuin output
-Elhassan 2019,"NR 1 g/d, 21 d, 12","92.0 vs 86.5 pmol mg⁻¹, P = 0.96",mRNA unchanged,NAAD 2.09× (P = 0.004); blood 4.5× (P < 0.001),"MeNAM 4.14×, Me-2-py 6.00×, Me-4-py 5.33×","210 vs 197 pmol mg⁻¹, P = 0.22","47.75 vs 20.90 µmol L⁻¹, P < 0.001",Pan-acetylation unchanged
-Dollerup 2020,"NR 2 g/d, 12 wk, 40",—,Protein −14%; mRNA unchanged,—,—,"Unchanged, interaction P = 0.10",—,"Pan-acetylation, SIRT3, PGC-1α unchanged"
-Remie 2020,"NR 1 g/d, 6 wk, 13",Not separable from the paper's abbreviation,—,"NAAD +677%, P < 0.01","MeNAM +299%, P < 0.01","1.019 vs 1.125 nmol mg⁻¹, P = 0.34; MS assay P = 0.91",—,—
-Stocks 2021,"NR 1 g/d, 7 d, 8","Unchanged, P = 0.265",mRNA unchanged,NaMN P = 0.003; NAR P = 0.002,Me-2-py and Me-4-py P = 0.002 each; MeNAM unaffected by NR,"Unchanged, P = 0.093",—,"Total, p53 K382 and MnSOD K122 acetylation unchanged"
-Yoshino 2021,"NMN 250 mg/d, 10 wk, 25",Unchanged (arbitrary units),—,—,"MeNAM, 2PY and 4PY increased",Unchanged,"PBMC content increased; 240-min AUC +43%, P < 0.01",—
-Measured / 5,,3,3,3,4,5,2,3
-Direction,,None rose,Protein fell in 1; transcript unchanged in 3,All rose,All rose,None rose,Both rose,None changed
