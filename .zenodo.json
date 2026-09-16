@@ -1,0 +1,54 @@
+{
+  "title": "Analysis code, literature-audit record and trial extraction for: Resting NAD+ sets the ceiling, not the dose — a quantitative criterion for vitamin B3 precursors across tissues",
+  "description": "<p>Supplementary Code S1 of the review manuscript. Reproduces every calculated value in the paper: the gain ceiling set by the resting concentration, the concentration above which no attainable NAD+ restores baseline sirtuin output, and the required elasticity together with the threshold that climbs with dose. Generates Figures 1, 3 and 4. Also carries the full coding record of the scoping audit of 297 full-text reviews (PRISMA-ScR) and the trial-by-trial extraction behind Figures 1 and 2. No new experimental data were generated; every input is taken from the published sources cited in the manuscript.</p>",
+  "upload_type": "software",
+  "license": "mit",
+  "access_right": "open",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Sun, Zhengwang",
+      "affiliation": "Hubei University of Chinese Medicine"
+    },
+    {
+      "name": "Nguyen, Trang Thi Minh",
+      "affiliation": "Kyung Hee University"
+    },
+    {
+      "name": "Kim, Jae-Woo",
+      "affiliation": "Kyung Hee University"
+    },
+    {
+      "name": "Wang, Xinwei",
+      "affiliation": "Hubei University of Chinese Medicine"
+    },
+    {
+      "name": "Shin, Min-Kyung",
+      "affiliation": "Kyung Hee University"
+    },
+    {
+      "name": "Yin, Changshik",
+      "affiliation": "Kyung Hee University"
+    },
+    {
+      "name": "Yim, Sung-Vin",
+      "affiliation": "Kyung Hee University"
+    },
+    {
+      "name": "Yi, Tae-Hoo",
+      "affiliation": "Kyung Hee University",
+      "orcid": "0000-0001-9369-6542"
+    }
+  ],
+  "keywords": [
+    "NAMPT",
+    "NAPRT",
+    "nicotinamide",
+    "niacin",
+    "NAD+",
+    "sirtuin 1",
+    "dose-response",
+    "scoping review",
+    "PRISMA-ScR"
+  ]
+}

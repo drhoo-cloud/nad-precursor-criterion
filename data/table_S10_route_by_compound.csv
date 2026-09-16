@@ -1,0 +1,7 @@
+Compound,Oral route,Topical route,Injected route
+Nicotinamide,Amide branch,Amide branch,Amide branch
+"Nicotinamide mononucleotide, nicotinamide riboside",Only a small part is absorbed intact; most of a dose is deamidated by gut microbiota to nicotinic acid and enters the acid branch27,Gut bypassed — amide branch,"Not gut-free. Degraded to nicotinamide in blood, secreted in bile, deamidated in the gut lumen and returned to the liver27"
+Infused NAD⁺,Not used,Not used,Degraded extracellularly before uptake30 — amide branch
+Nicotinic acid,Acid branch; dose-limited by systemic flushing,Acid branch; not usable topically above ≈ 0.05% owing to local flushing5,Acid branch
+Nicotinate esters,Not used,"Acid branch, delivered locally; flushing avoided by controlling hydrolysis rate5,41",Not used
+Nicotinoyl-amide conjugates,Not used,Branch undetermined; hydrolysis in skin not demonstrated,Not used

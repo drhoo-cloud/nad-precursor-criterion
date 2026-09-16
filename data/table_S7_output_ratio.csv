@@ -1,0 +1,7 @@
+M (µmol L⁻¹),"A/A0, unstressed","A/A0, depleted",Defining expression
+30 (resting),1.0000,1.0000,"equation 1, by construction"
+39.1,—,1.0039 (+0.4%),maximum; η = ηreq(M)
+60,0.9156 (−8.4%),0.9832 (−1.7%),equation 1
+100,0.8063 (−19.4%),0.9095 (−9.0%),equation 1
+300,0.4916 (−50.8%),0.6092 (−39.1%),equation 1
+1000,0.2069 (−79.3%),0.2787 (−72.1%),equation 1
