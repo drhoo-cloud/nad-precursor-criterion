@@ -1,5 +1,0 @@
-Axis,Levels,Rule
-Inhibitor identity,NAD⁺ / nicotinamide / nicotinamide mononucleotide / none,The chemical species the text names as exerting the inhibition. A text that says only that the enzyme is 'feedback-inhibited' without naming the species scores none.
-Inhibited target,NAMPT (synthesis) / consuming enzymes / both / none,"The enzyme the text says is inhibited. Statements about sirtuins, PARPs, CD38 or SARM1 score consuming enzymes, not NAMPT, however adjacent the sentences."
-Carried into a quantity,yes / no,"Scores yes only if the text converts the statement into a threshold, a ceiling, an inhibition-adjusted dose, or a criterion that published dose–response data could be tested against. Quoting an inhibition constant without using it scores no."
-Secondary: branch stratification,A / B / B2 / C,"A, NAD⁺ outcomes reported separately for acid- and amide-branch compounds; B, both branches named but outcomes pooled; B2, only amide-branch compounds discussed; C, 'NAD⁺ precursor' treated as one category. Applied to the 32 records read in full duplicate (S7.7)."
