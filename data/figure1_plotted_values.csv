@@ -1,0 +1,20 @@
+Compound,Branch,System,Exposure,Ref.,NAD+ fold of control,Depleted baseline,NAPRT measured,Note
+Myristyl nicotinate 5%,acid,Human forearm,"12 wk, 5%","5,6",1.25,no,no,
+Niacinamide 4%,amide,Human forearm,"8 wk, 4%",5,1.00,no,no,
+Myristyl nicotinate (tetradecyl nicotinate),acid,Hairless mouse dorsal skin,"1%, 3 d",70,1.39,no,no,read from source figure; abdominal control 0.95
+Nicotinic acid,acid,HEK293,"5-10 uM, 6 h",15,2.00,no,yes,
+Nicotinamide,amide,HEK293,"20 uM, 6 h",15,1.00,no,yes,
+Nicotinamide,amide,HEK293,"5 mM, 6 h",15,1.31,no,yes,
+Nicotinic acid,acid,NHEK,"10 uM, 6 h",19,1.30,no,no,
+Nicotinic acid + FK866,acid,NHEK,"10 uM, 6 h",19,1.30,no,no,
+Nicotinic acid mononucleotide,acid,NHEK,"30-100 uM, 6 h",19,1.50,no,no,not significant in source
+Nicotinic acid riboside,acid,NHEK,"100 uM, 6 h",19,1.10,no,no,
+Nicotinamide,amide,NHEK,"100 uM, 6 h",19,0.95,no,no,
+Nicotinamide mononucleotide,amide,NHEK,"100 uM, 6 h",19,1.00,no,no,
+Nicotinamide riboside,amide,NHEK,"100 uM, 6 h",19,1.00,no,no,
+"Niacin, myopathy patients",acid,Human vastus lateralis,"750-1000 mg/d, 10 mo",22,2.30,yes,no,
+"Niacin, healthy controls",acid,Human vastus lateralis,"750-1000 mg/d, 4 mo",22,1.00,no,no,
+Nicotinamide riboside,amide,Human vastus lateralis,"1 g/d, 21 d",23,1.07,no,no,
+Nicotinamide riboside,amide,Human vastus lateralis,"1 g/d, 6 wk",24,0.91,no,no,
+Nicotinic acid,acid,Aged mouse tibialis anterior,5 wk,35,2.70,yes,no,
+Nicotinic acid,acid,Aged mouse soleus,5 wk,35,1.37,yes,no,

@@ -63,12 +63,14 @@ direction of every entry is invariant across the ranges swept there.
 | `PharmRes_Figure1.py` | Figure 1 — every located measurement, by tissue, with the NAPRT column and the branch-and-state strip |
 | `PharmRes_figures34.py` | Figures 3 and 4 from the model, and the separate panel files |
 | `PharmRes_FigureS2_prisma.py` | Supplementary Figure S2 — the PRISMA-ScR flow of records |
+| `count_enzyme_mentions.py` | reproduces the enzyme-naming counts of Table 1C from PubMed and PubMed Central |
 | `PharmRes_GraphicalAbstract.py` | the graphical abstract |
 | `data/` | the numerical tables of the supplementary material, as CSV |
 | `audit/` | the scoping-audit record: PRISMA-ScR flow, coding manual, and the ten records that state the constraint |
 | `figures/` | output written by the scripts (EPS, 600 dpi TIFF, PNG preview) |
 | `requirements.txt` | tested dependency versions |
 | `CITATION.cff`, `.zenodo.json` | citation and archive metadata |
+| `VERIFICATION.md` | how to check each kind of claim in the paper, and where judgement was exercised |
 | `UPLOAD_CHECKLIST.md` | what to verify before publishing a release, and what to update afterwards |
 
 **Figure 2 is a hand-drawn pathway schematic and has no generating script.** Its
@@ -98,6 +100,7 @@ repeated from the string alone.
 | `records_stating_inhibition_search2.csv` | the five of the second search |
 | `prisma_scr_checklist.csv` | the completed PRISMA-ScR checklist, 22 items, with the location of each |
 | `retrieval_record.csv` | all 236 records: PMID, PMC identifier, whether full text came from PMC, and the screen class |
+| `enzyme_mention_counts.csv` | NAMPT and NAPRT mentions per record, body text and whole deposited text |
 | `screen_adjudication.csv` | the 21 records the screen returned and the three found outside PMC: eligible or not, target named, and the reason for each exclusion |
 
 ## Reproducing
@@ -112,7 +115,8 @@ python3 PharmRes_FigureS2_prisma.py # Supplementary Figure S2
 ```
 
 `verify_values.py` prints the manuscript's own value beside each computed one, so
-a mismatch is visible without opening the paper.
+a mismatch is visible without opening the paper. `VERIFICATION.md` sets out what
+else can be checked and where judgement was exercised.
 
 Figures are drawn at 190 mm (Elsevier full-page width) with 8 pt text, above the
 7 pt minimum at final printed size, as vector EPS with a 600 dpi LZW TIFF

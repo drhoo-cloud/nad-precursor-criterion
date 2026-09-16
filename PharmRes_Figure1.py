@@ -1,6 +1,6 @@
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-FONT='Liberation Sans'   # substitute 'Nimbus Sans' at final export
+FONT='Nimbus Sans'   # substitute 'Nimbus Sans' at final export
 plt.rcParams['font.family']=FONT
 plt.rcParams['pdf.fonttype']=42
 plt.rcParams['ps.fonttype']=42
@@ -14,14 +14,14 @@ R=[('H','HUMAN SKIN, topical',),
  ('R','Myristyl nicotinate 5%','Forearm','12 wk, 5%','5,6',1.25,'A',False,'\u2014'),
  ('R','Niacinamide 4%','Forearm','8 wk, 4%','5',1.00,'M',False,'\u2014'),
  ('H','MOUSE SKIN, topical',),
- ('R','Myristyl nicotinate','Dorsum','\u2014','5',1.43,'A',False,'\u2014'),
+ ('R','Myristyl nicotinate','Dorsum','1%, 3 d','70',1.39,'A',False,'\u2014'),
  ('H','CULTURED CELLS, 6 h',),
  ('R','Nicotinic acid','HEK293','5\u201310 \u00b5M','15',2.00,'A',False,'Y'),
  ('R','Nicotinamide','HEK293','20 \u00b5M','15',1.00,'M',False,'Y'),
  ('R','Nicotinamide','HEK293','5 mM','15',1.31,'M',False,'Y'),
  ('R','Nicotinic acid','NHEK','10 \u00b5M','19',1.30,'A',False,'\u2014'),
  ('R','Nicotinic acid + FK866','NHEK','10 \u00b5M','19',1.30,'A',False,'\u2014'),
- ('R','Nicotinic acid mononucleotide','NHEK','30\u2013100 \u00b5M','19',1.50,'A',False,'\u2014'),
+ ('R','Nicotinic acid mononucleotide','NHEK','30\u2013100 \u00b5M (ns)','19',1.50,'A',False,'\u2014'),
  ('R','Nicotinic acid riboside','NHEK','100 \u00b5M','19',1.10,'A',False,'\u2014'),
  ('R','Nicotinamide','NHEK','100 \u00b5M','19',0.95,'M',False,'\u2014'),
  ('R','Nicotinamide mononucleotide','NHEK','100 \u00b5M','19',1.00,'M',False,'\u2014'),
