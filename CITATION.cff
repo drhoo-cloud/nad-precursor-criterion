@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the archived release and the manuscript it accompanies. Sun Z and Nguyen TTM are joint first authors."
+title: "Analysis code, literature-audit record and trial extraction for: Resting NAD+ sets the ceiling, not the dose — a quantitative criterion for vitamin B3 precursors across tissues"
+abstract: >-
+  Reproduces every calculated value of the review: the bounded-gain /
+  unbounded-penalty response function for sirtuin 1, the gain ceiling, the
+  concentration above which no attainable NAD+ restores baseline output, and
+  the required elasticity and its threshold. Also carries the full coding
+  record of the 297-review scoping audit and the trial-by-trial extraction
+  behind Figures 1 and 2.
+type: software
+version: "2.5.0"
+date-released: "2026-09-15"
+license: MIT
+authors:
+  - family-names: Sun
+    given-names: Zhengwang
+    affiliation: "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China"
+  - family-names: Nguyen
+    given-names: Trang Thi Minh
+    affiliation: "Graduate School of Biotechnology, Kyung Hee University, Yongin-si, Republic of Korea"
+  - family-names: Kim
+    given-names: Jae-Woo
+    affiliation: "Graduate School of Biotechnology, Kyung Hee University, Yongin-si, Republic of Korea"
+  - family-names: Wang
+    given-names: Xinwei
+    affiliation: "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China"
+  - family-names: Shin
+    given-names: Min-Kyung
+    affiliation: "Department of Dermatology, Kyung Hee University College of Medicine, Seoul, Republic of Korea"
+  - family-names: Yin
+    given-names: Changshik
+    affiliation: "Department of Medical Education, College of Korean Medicine, Kyung Hee University, Republic of Korea"
+  - family-names: Yim
+    given-names: Sung-Vin
+    affiliation: "Department of Clinical Pharmacology and Therapeutics, Kyung Hee University College of Medicine, Seoul, Republic of Korea"
+  - family-names: Yi
+    given-names: Tae-Hoo
+    orcid: "https://orcid.org/0000-0001-9369-6542"
+    email: drhoo@khu.ac.kr
+    affiliation: "Graduate School of Biotechnology, Kyung Hee University, Yongin-si, Republic of Korea"
+keywords:
+  - NAMPT
+  - NAPRT
+  - nicotinamide
+  - niacin
+  - "NAD+"
+  - sirtuin 1
+  - dose-response
+  - scoping review
+repository-code: "https://github.com/drhoo-cloud/nad-precursor-criterion"

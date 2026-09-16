@@ -1,0 +1,11 @@
+Parameter,Enzyme,Value,Type,Ref.
+"Ki, NAD⁺",NAMPT,0.14 µmol L⁻¹,"Product inhibition, competitive vs PRPP",28
+"Ki, nicotinamide",NAMPT,"≈ 3 µmol L⁻¹, from 250 nmol L⁻¹",High-substrate inhibition,28
+"Km, PRPP",NAMPT,0.63 µmol L⁻¹,Michaelis constant,28
+"Km, nicotinamide",NAMPT,≈ 1 → 25 µmol L⁻¹,Rises ~20-fold under 0.5 mmol L⁻¹ NAD⁺,15
+"Km, nicotinate",NAPRT,15.5 → 12.7 µmol L⁻¹,Unchanged at 1 mmol L⁻¹ NAD⁺ — no feedback,15
+Catalytic efficiency,NAPRT,Unchanged,Not inhibited at 1 mmol L⁻¹ NAD⁺,15
+Catalytic efficiency,NAMPT,46.5-fold lower,At 0.5 mmol L⁻¹ NAD⁺; Km(PRPP) ×8.5 with Vmax ÷5.5,15
+—,—,400–700 µmol L⁻¹,"Whole-cell NAD⁺, nine cell types",29
+—,—,1 µmol L⁻¹,Medium nicotinamide at maximal synthesis rate,29
+"IC50, nicotinamide",PARP1,31 µmol L⁻¹,Enzyme inhibition; apparent Kᵢ of 20–50 µmol L⁻¹ reported elsewhere,45
