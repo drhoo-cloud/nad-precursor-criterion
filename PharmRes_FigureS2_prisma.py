@@ -1,3 +1,4 @@
+import _fontreg  # register Nimbus Sans
 #!/usr/bin/env python3
 """PRISMA-ScR flow of records for the scoping audit of section 3 (Figure S2)."""
 import matplotlib; matplotlib.use('Agg')

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the archived release and the manuscript it accompanies. Sun Z and Nguyen TTM are joint first authors."
-title: "Analysis code, literature-audit record and trial extraction for: Resting NAD+ sets the ceiling, not the dose — a quantitative criterion for vitamin B3 precursors across tissues"
+title: "Analysis code, literature-audit record and trial extraction for: Vitamin B3 precursors: only the acid branch raises NAD+, and only a deficit makes it count"
 abstract: >-
   Reproduces every calculated value of the review: the bounded-gain /
   unbounded-penalty response function for sirtuin 1, the gain ceiling, the
@@ -9,8 +9,8 @@ abstract: >-
   record of the 297-review scoping audit and the trial-by-trial extraction
   behind Figures 1 and 2.
 type: software
-version: "2.5.0"
-date-released: "2026-09-15"
+version: "3.0.0"
+date-released: "2026-09-16"
 license: MIT
 authors:
   - family-names: Sun

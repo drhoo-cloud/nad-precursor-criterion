@@ -1,3 +1,4 @@
+import _fontreg
 #!/usr/bin/env python3
 """
 PharmRes manuscript -- the model, and Figures 3 and 4.
@@ -50,7 +51,7 @@ def save(fig, stem):
     fig.savefig(OUT + "PharmRes_" + stem + ".eps", format="eps", bbox_inches="tight")
     fig.savefig(OUT + "PharmRes_" + stem + ".tif", format="tiff", dpi=600,
                 bbox_inches="tight", pil_kwargs={"compression": "tiff_lzw"})
-    fig.savefig(OUT + "PharmRes_" + stem + ".png", dpi=150, bbox_inches="tight")
+    fig.savefig(OUT + "PharmRes_" + stem + ".png", dpi=600, bbox_inches="tight")
     plt.close(fig)
 
 

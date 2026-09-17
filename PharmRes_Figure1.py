@@ -1,3 +1,4 @@
+import _fontreg  # register Nimbus Sans
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 FONT='Nimbus Sans'   # substitute 'Nimbus Sans' at final export

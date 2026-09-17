@@ -2,8 +2,8 @@
 """
 Reproduces every derived number quoted in the manuscript.
 
-    Resting NAD+ sets the ceiling, not the dose:
-    a quantitative criterion for vitamin B3 precursors across tissues
+    Vitamin B3 precursors: only the acid branch raises NAD+,
+    and only a deficit makes it count
 
 Run:  python3 verify_values.py
 Nothing here is a measurement. Every number below is arithmetic on the five

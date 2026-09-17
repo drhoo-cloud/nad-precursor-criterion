@@ -1,3 +1,4 @@
+import _fontreg  # register Nimbus Sans
 # -*- coding: utf-8 -*-
 """Graphical abstract, rebuilt on the new title and abstract.
    Elsevier spec: 13 x 5 cm landscape, >= 531 x 1328 px."""
@@ -6,9 +7,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import FancyBboxPatch
 
-plt.rcParams['font.family'] = 'Liberation Sans'   # substitute Arial at final export
+plt.rcParams['font.family'] = 'Nimbus Sans'   # substitute Arial at final export
 plt.rcParams['ps.fonttype'] = 42
 plt.rcParams['pdf.fonttype'] = 42
+plt.rcParams['mathtext.fontset'] = 'custom'
+plt.rcParams['mathtext.rm'] = 'Nimbus Sans'
+plt.rcParams['mathtext.it'] = 'Nimbus Sans:italic'
+plt.rcParams['mathtext.bf'] = 'Nimbus Sans:bold'
+plt.rcParams['mathtext.default'] = 'regular'
 
 BLUE='#1F6FB4'; RED='#B81F2E'; GREEN='#1E7A4C'; GREY='#5A5A5A'; LGREY='#9A9A9A'
 BLUEBG='#EAF2FA'; REDBG='#FBEDEC'; GREENBG='#E8F3EC'; NEUT='#F4F4F4'
@@ -103,7 +109,7 @@ for x in (43.2, 86.7):
 
 # ---------- banner ----------
 box(2, 1.0, 126, 6.4, GREENBG, GREEN, 1.0)
-t(65, 4.2, 'The headroom belongs to the tissue, not to the dose.',
+t(65, 4.2, 'Branch and state decide; the dose does not.',
   size=7.0, color=GREEN, weight='bold')
 
 import os; os.makedirs('figures', exist_ok=True)

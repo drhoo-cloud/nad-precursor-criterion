@@ -1,8 +1,8 @@
-# Resting NAD⁺ sets the ceiling, not the dose — analysis code and audit record
+# Vitamin B3 precursors: only the acid branch raises NAD⁺ — analysis code and audit record
 
 Analysis code, literature-audit record and trial extraction for the review manuscript
 
-> **Resting NAD⁺ sets the ceiling, not the dose: a quantitative criterion for vitamin B3 precursors across tissues**
+> **Vitamin B3 precursors: only the acid branch raises NAD⁺, and only a deficit makes it count**
 > Sun Z\*, Nguyen TTM\*, Kim J-W, Wang X, Shin M-K, Yin C, Yim S-V, Yi T-H
 > \* joint first authors
 > Kyung Hee University, Republic of Korea, and Hubei University of Chinese Medicine, China
@@ -64,6 +64,7 @@ direction of every entry is invariant across the ranges swept there.
 | `PharmRes_figures34.py` | Figures 3 and 4 from the model, and the separate panel files |
 | `PharmRes_FigureS2_prisma.py` | Supplementary Figure S2 — the PRISMA-ScR flow of records |
 | `count_enzyme_mentions.py` | reproduces the enzyme-naming counts of Table 1C from PubMed and PubMed Central |
+| `_fontreg.py` | registers Nimbus Sans with matplotlib where fontconfig does not expose it |
 | `PharmRes_GraphicalAbstract.py` | the graphical abstract |
 | `data/` | the numerical tables of the supplementary material, as CSV |
 | `audit/` | the scoping-audit record: PRISMA-ScR flow, coding manual, and the ten records that state the constraint |
@@ -120,9 +121,9 @@ else can be checked and where judgement was exercised.
 
 Figures are drawn at 190 mm (Elsevier full-page width) with 8 pt text, above the
 7 pt minimum at final printed size, as vector EPS with a 600 dpi LZW TIFF
-alongside. The scripts set `FONT = "Nimbus Sans"`, which is metric-compatible
-with Helvetica and Arial; substitute a locally available equivalent if it is not
-installed.
+alongside. The scripts set `FONT = "Nimbus Sans"`, which is metric-compatible with Helvetica
+and Arial. `_fontreg.py` registers it from the URW base-35 set that ships with
+Ghostscript; substitute a locally available equivalent if neither is present.
 
 ## Notes on scope
 
