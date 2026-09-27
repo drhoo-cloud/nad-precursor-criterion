@@ -43,6 +43,21 @@ compound, branch, system, exposure, reference and value.
 `data/figure2_trial_nodes.csv` gives the node-by-node record of the five trials.
 The remaining CSV files are the numerical tables of the supplementary material.
 
+## The figures
+
+```bash
+python3 figure_1.py          # Figure 1
+python3 figures_3_4.py       # Figures 3 and 4, and their separate panels
+python3 figure_s2_prisma.py  # Supplementary Figure S2
+python3 graphical_abstract.py
+```
+
+Each writes to `figures/` under the same names as the submitted files. The
+figures are set in Nimbus Sans, which is metric-compatible with Helvetica;
+`_fontreg.py` registers it and warns if it is absent, in which case the figures
+still draw but in another family and at other text widths. Figure 2 is a
+hand-drawn pathway schematic and has no generating script.
+
 ## Where judgement was exercised
 
 Four places, stated here rather than left to be found.

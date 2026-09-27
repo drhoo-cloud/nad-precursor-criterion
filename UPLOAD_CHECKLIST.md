@@ -7,7 +7,8 @@ Zenodo 보관 완료 — **Concept DOI `10.5281/zenodo.22783930`**.
 |---|---|
 | v2.5.0 | 10.5281/zenodo.22783931 |
 | v2.5.1 | 10.5281/zenodo.22784277 |
-| **v3.0.0** | 이번에 발행 |
+| v3.0.0 | 10.5281/zenodo.22783930 이 가리키는 직전 버전 |
+| **v3.0.1** | 이번에 발행 |
 
 원고에는 **Concept DOI**를 쓴다. 버전이 늘어도 바뀌지 않는다.
 
@@ -20,10 +21,10 @@ python3 verify_values.py
 출력의 왼쪽(계산값)과 오른쪽(논문에 적힌 값)이 모두 같아야 한다. 하나라도 다르면 올리지 않는다.
 
 ```bash
-python3 PharmRes_Figure1.py
-python3 PharmRes_figures34.py
-python3 PharmRes_FigureS2_prisma.py
-python3 PharmRes_GraphicalAbstract.py
+python3 figure_1.py
+python3 figures_3_4.py
+python3 figure_s2_prisma.py
+python3 graphical_abstract.py
 ```
 
 네 스크립트가 `figures/`에 파일을 쓴다. `figures/`는 저장소에 비어 있고 `.gitignore`가
@@ -33,9 +34,21 @@ python3 PharmRes_GraphicalAbstract.py
 URW base-35 세트에서 이를 등록한다. 둘 다 없으면 스크립트 머리의 `FONT` 값을 로컬에 있는
 Helvetica 계열로 바꾼다. 레이아웃은 실측 기반이라 서체를 바꿔도 배치가 무너지지 않는다.
 
-## B. v3.0.0 반영 사항
+## B. v3.0.1 반영 사항
 
-제목이 바뀌었으므로 README · CITATION.cff · .zenodo.json을 갱신했다.
+작도 스크립트 네 개의 파일명에서 투고 이력이 드러나는 접두어를 제거하고,
+출력 파일명을 투고본 그림 이름(`Figure_1.eps` 등)과 일치시켰다.
+계산 결과와 데이터는 v3.0.0과 동일하다.
+
+`figures_3_4.py`가 투고본 Figure 3·4를 재현하지 못하던 세 가지도 함께 고쳤다.
+
+| | v3.0.0 | v3.0.1 |
+|---|---|---|
+| 결합 도면 크기 | `figsize=(9.6, 4.15)` → 242.7 mm, 규정 초과 | `(W, W*0.421)` → 190.1 mm |
+| 수식 서체 | 기본값으로 빠져 DejaVu 혼입 | `mathtext.fontset='custom'` |
+| 범례의 `\cdot` | Computer Modern(Cmsy10) 혼입 | 중점(`·`)으로 교체 |
+
+`_fontreg.py`는 Nimbus Sans를 찾지 못하면 이제 경고를 낸다(이전에는 조용히 넘어갔다).
 
 > Vitamin B3 precursors: only the acid branch raises NAD⁺, and only a deficit makes it count
 
@@ -43,14 +56,14 @@ Helvetica 계열로 바꾼다. 레이아웃은 실측 기반이라 서체를 바
 
 ```bash
 git add -A
-git commit -m "v3.0: new title and abstract; Nimbus Sans font registration; figure legend corrections"
+git commit -m "v3.0.1: journal-neutral script and output filenames"
 git push
 ```
 
 Releases → Draft a new release
-- Tag `v3.0.0` → **Create new tag: v3.0.0 on publish**
-- Title `Supplementary Code S1 (Pharmacological Research, submitted version)`
-- 본문에 제목 변경을 한 줄 적는다
+- Tag `v3.0.1` → **Create new tag: v3.0.1 on publish**
+- Title `Supplementary Code S1 (v3.0.1, submitted version)`
+- 본문에 파일명 정리를 한 줄 적는다
 
 **Zenodo 스위치는 이미 ON이므로** 릴리스를 발행하면 자동으로 보관되고, Concept DOI는
 새 버전을 가리킨다. 원고의 DOI는 고칠 필요가 없다.
@@ -59,9 +72,9 @@ Releases → Draft a new release
 
 | 파일 | 위치 |
 |---|---|
-| `PharmRes_v3.0_Manuscript.docx` | 표제지 Data availability · 참고문헌 말미 `[dataset]` |
-| `PharmRes_v3.0_Supplementary.docx` | Appendix S2 · S7.10 Availability |
-| `PharmRes_v3.0_CoverLetter.docx` | 7단락 |
+| `ARR_Manuscript.docx` | 표제지 Data availability · 참고문헌 말미 `[dataset]` |
+| `ARR_Supplementary_Material.docx` | Appendix S2 · S7.10 Availability |
+| `ARR_Cover_Letter.docx` | 본문 |
 
 참고문헌 말미의 데이터 인용은 번호 목록 밖에 둔다(Elsevier는 조판 시 `[dataset]` 태그를 제거한다).
 

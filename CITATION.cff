@@ -9,8 +9,8 @@ abstract: >-
   record of the 297-review scoping audit and the trial-by-trial extraction
   behind Figures 1 and 2.
 type: software
-version: "3.0.0"
-date-released: "2026-09-16"
+version: "3.0.1"
+date-released: "2026-09-27"
 license: MIT
 authors:
   - family-names: Sun

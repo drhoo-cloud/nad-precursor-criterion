@@ -60,12 +60,12 @@ direction of every entry is invariant across the ranges swept there.
 | File | What it is |
 |---|---|
 | `verify_values.py` | prints every derived number quoted in the manuscript, beside the value printed in the paper |
-| `PharmRes_Figure1.py` | Figure 1 — every located measurement, by tissue, with the NAPRT column and the branch-and-state strip |
-| `PharmRes_figures34.py` | Figures 3 and 4 from the model, and the separate panel files |
-| `PharmRes_FigureS2_prisma.py` | Supplementary Figure S2 — the PRISMA-ScR flow of records |
+| `figure_1.py` | Figure 1 — every located measurement, by tissue, with the NAPRT column and the branch-and-state strip |
+| `figures_3_4.py` | Figures 3 and 4 from the model, and the separate panel files |
+| `figure_s2_prisma.py` | Supplementary Figure S2 — the PRISMA-ScR flow of records |
 | `count_enzyme_mentions.py` | reproduces the enzyme-naming counts of Table 1C from PubMed and PubMed Central |
 | `_fontreg.py` | registers Nimbus Sans with matplotlib where fontconfig does not expose it |
-| `PharmRes_GraphicalAbstract.py` | the graphical abstract |
+| `graphical_abstract.py` | the graphical abstract |
 | `data/` | the numerical tables of the supplementary material, as CSV |
 | `audit/` | the scoping-audit record: PRISMA-ScR flow, coding manual, and the ten records that state the constraint |
 | `figures/` | output written by the scripts (EPS, 600 dpi TIFF, PNG preview) |
@@ -110,9 +110,9 @@ repeated from the string alone.
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python3 verify_values.py            # every derived number, against the paper
-python3 PharmRes_Figure1.py         # Figure 1
-python3 PharmRes_figures34.py       # Figures 3 and 4, and the panels
-python3 PharmRes_FigureS2_prisma.py # Supplementary Figure S2
+python3 figure_1.py         # Figure 1
+python3 figures_3_4.py       # Figures 3 and 4, and the panels
+python3 figure_s2_prisma.py # Supplementary Figure S2
 ```
 
 `verify_values.py` prints the manuscript's own value beside each computed one, so
