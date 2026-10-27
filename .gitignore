@@ -4,3 +4,6 @@ __pycache__/
 .DS_Store
 figures/*
 !figures/.gitkeep
+# Deposited figures cited by the article's supporting record (see DEPOSIT_MAP.md)
+!figures/Figure_PRISMA_flow.eps
+!figures/Figure_trial_nodes_log.eps
