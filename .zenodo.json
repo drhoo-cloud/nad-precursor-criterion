@@ -1,6 +1,6 @@
 {
-  "title": "Analysis code, literature-audit record and trial extraction for: Vitamin B3 precursors: only the acid branch raises NAD+, and only a deficit makes it count",
-  "description": "<p>Supplementary Code S1 of the review manuscript. Reproduces every calculated value in the paper: the gain ceiling set by the resting concentration, the concentration above which no attainable NAD+ restores baseline sirtuin output, and the required elasticity together with the threshold that climbs with dose. Generates Figures 1, 3 and 4. Also carries the full coding record of the scoping audit of 297 full-text reviews (PRISMA-ScR) and the trial-by-trial extraction behind Figures 1 and 2. No new experimental data were generated; every input is taken from the published sources cited in the manuscript.</p>",
+  "title": "Analysis code, literature-audit record and trial extraction for: NAD+ precursors - route, product inhibition and deficit, not dose",
+  "description": "<p>Supporting record for the review manuscript (Biochemical Pharmacology submission, v4.0.0). The journal accepts only video or audio as supplementary data, so the derivation, the parameter table and the sensitivity sweep are given as Appendices A to C inside the article and everything else is deposited here. This archive therefore carries: the analysis code reproducing every derived value and every figure; the full coding record of the scoping audit of 297 full-text reviews, with the search strings, the coding manual, the per-record codes and the completed PRISMA-ScR checklist; the PRISMA-ScR flow diagram; the trial-by-trial extraction behind Figures 1 and 2; the branch-assignment and route record; and the artificial-intelligence use record. No new experimental data were generated; every input is taken from the published sources cited in the manuscript.</p>",
   "upload_type": "software",
   "license": "mit",
   "access_right": "open",
@@ -50,5 +50,6 @@
     "dose-response",
     "scoping review",
     "PRISMA-ScR"
-  ]
+  ],
+  "version": "4.0.0"
 }
