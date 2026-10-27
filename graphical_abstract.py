@@ -50,9 +50,9 @@ box(X0+2, 17.5, X1-X0-4, 8.2, REDBG, RED, 0.7)
 t((X0+X1)/2, 23.2, 'AMIDE branch  \u2192  NAMPT', size=5.7, color=RED, weight='bold')
 t((X0+X1)/2, 19.6, 'shut off by NAD$^{+}$ \u2014 efficiency \u00f7 46.5', size=5.3, color=RED)
 
-t((X0+X1)/2, 13.2, 'Known, and never costed:', size=5.0, color=GREY)
-t((X0+X1)/2, 11.0, 'stated in 10 of 297 reviews, converted in 0',
-  size=5.0, color=GREY, weight='bold')
+t((X0+X1)/2, 13.6, 'And the route decides which branch arrives:', size=5.0, color=GREY)
+t((X0+X1)/2, 11.4, 'oral amide branch returns as acid branch', size=5.0, color=GREY, weight='bold')
+t((X0+X1)/2, 9.0, 'after gut deamidation', size=5.0, color=GREY, weight='bold')
 
 # ================= 2. the conversion =================
 X0, X1 = 45.5, 84.5

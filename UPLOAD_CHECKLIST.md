@@ -50,7 +50,7 @@ Helvetica 계열로 바꾼다. 레이아웃은 실측 기반이라 서체를 바
 
 `_fontreg.py`는 Nimbus Sans를 찾지 못하면 이제 경고를 낸다(이전에는 조용히 넘어갔다).
 
-> Vitamin B3 precursors: only the acid branch raises NAD⁺, and only a deficit makes it count
+> NAD⁺ precursors: route, product inhibition and deficit — not dose. A quantitative criterion tested against published dose–response data
 
 ## C. 커밋과 릴리스
 
@@ -80,8 +80,8 @@ Releases → Draft a new release
 
 ```
 [dataset] Sun Z, Nguyen TTM, Kim J-W et al. Analysis code, literature-audit record
-and trial extraction for: Vitamin B3 precursors — only the acid branch raises NAD+,
-and only a deficit makes it count. Zenodo, 2026. doi:10.5281/zenodo.22783930.
+and trial extraction for: NAD+ precursors - route, product inhibition and deficit, not dose.
+Zenodo, 2026. doi:10.5281/zenodo.22783930.
 ```
 
 ## E. 저장소에 일부러 넣지 않은 것

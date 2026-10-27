@@ -32,7 +32,7 @@ def get(url, tries=4):
 def search():
     u = BASE + "esearch.fcgi?" + urllib.parse.urlencode(
         {"db": "pubmed", "term": QUERY, "retmax": "1000", "retmode": "json"})
-    d = json.loads(get(u))["esearchresult"]
+    d = json.loads(get(u), strict=False)["esearchresult"]
     return d["count"], d["idlist"]
 
 def map_to_pmc(pmids):
@@ -45,7 +45,7 @@ def map_to_pmc(pmids):
         raw = get(BASE + "elink.fcgi?" + urllib.parse.urlencode(params))
         if not raw:
             continue
-        for ls in json.loads(raw).get("linksets", []):
+        for ls in json.loads(raw, strict=False).get("linksets", []):
             pm = str(ls["ids"][0])
             for db in ls.get("linksetdbs", []):
                 if db.get("linkname") == "pubmed_pmc" and db.get("links"):

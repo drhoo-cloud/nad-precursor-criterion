@@ -1,8 +1,8 @@
-# Vitamin B3 precursors: only the acid branch raises NAD⁺ — analysis code and audit record
+# NAD⁺ precursor pharmacology: entry enzymes, route, and a quantitative criterion — analysis code and audit record
 
 Analysis code, literature-audit record and trial extraction for the review manuscript
 
-> **Vitamin B3 precursors: only the acid branch raises NAD⁺, and only a deficit makes it count**
+> **NAD⁺ precursors: route, product inhibition and deficit — not dose. A quantitative criterion tested against published dose–response data**
 > Sun Z\*, Nguyen TTM\*, Kim J-W, Wang X, Shin M-K, Yin C, Yim S-V, Yi T-H
 > \* joint first authors
 > Kyung Hee University, Republic of Korea, and Hubei University of Chinese Medicine, China
@@ -14,6 +14,15 @@ audit behind Table 1, and generates Figures 1, 3 and 4.
 No new experimental data were generated. Every input is taken from the published
 sources cited in the manuscript and is listed in Table 2 and in Supplementary
 Tables S1–S10.
+
+## What this archive is, after the Biochemical Pharmacology restructure
+
+Biochemical Pharmacology accepts only video or audio as supplementary data. The derivation, the parameter
+table reported to the STRENDA standard, the sensitivity sweep and the branch-assignment table are therefore
+given as **Appendices A to C inside the article**, and everything else that supported the earlier
+supplementary document is deposited here. The article cites this archive as *the deposited record*.
+
+`DEPOSIT_MAP.md` maps every one of those eighteen references to the file that answers it. Start there.
 
 ## What the model says
 
@@ -27,7 +36,7 @@ G(N) = [N/(K_S+N)] / [N0/(K_S+N0)]        gain, relative to the resting state
 P(M) = (1 + M0/K_i) / (1 + M/K_i)         penalty, relative to the resting state
 ```
 
-from which follow the three quantities of §4.3:
+from which follow the three quantities of §5.2:
 
 ```
 G_max      = (K_S+N0)/N0                  the ceiling the tissue sets
@@ -82,7 +91,7 @@ repository and filled by running them.
 
 ## The literature audit
 
-`audit/` holds the record behind Table 1 and §3. PubMed was searched for reviews
+`audit/` holds the record behind Table 1 and §1. PubMed was searched for reviews
 published 2020–2026 carrying NAD in the title with any vitamin B3 precursor term
 (236 records, full text obtained for 176); a second search of the same period
 requiring a precursor term in the title instead added 121. Across 297 full-text

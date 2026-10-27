@@ -2,8 +2,8 @@
 """
 Reproduces every derived number quoted in the manuscript.
 
-    Vitamin B3 precursors: only the acid branch raises NAD+,
-    and only a deficit makes it count
+    NAD+ precursors: route, product inhibition and deficit - not dose.
+    A quantitative criterion tested against published dose-response data
 
 Run:  python3 verify_values.py
 Nothing here is a measurement. Every number below is arithmetic on the five
@@ -31,29 +31,29 @@ print(f"  K_S {K_S:.0f}   K_i {K_I:.0f}   N0 {N_UN:.0f} / {N_DP:.0f}   M0 {M0:.0
 
 print("\nTable 2 -- derived            unstressed  depleted   ratio   manuscript")
 print(f"  G_max                        {G_max(N_UN):.2f}       {G_max(N_DP):.2f}"
-      f"      {G_max(N_DP)/G_max(N_UN):.1f}x    1.29 / 2.16, 1.7x  (S4.3)")
+      f"      {G_max(N_DP)/G_max(N_UN):.1f}x    1.29 / 2.16, 1.7x  (5.2)")
 print(f"  M* (umol/L)                  {M_star(N_UN):.0f}         {M_star(N_DP):.0f}"
-      f"       {M_star(N_DP)/M_star(N_UN):.1f}x    89 / 268           (S4.3)")
+      f"       {M_star(N_DP)/M_star(N_UN):.1f}x    89 / 268           (5.2)")
 print(f"  eta_req at M0                {eta_req(M0,N_UN):.2f}       {eta_req(M0,N_DP):.2f}"
-      f"      {eta_req(M0,N_UN)/eta_req(M0,N_DP):.1f}x    0.65 / 0.27, 2.4x  (S4.3)")
+      f"      {eta_req(M0,N_UN)/eta_req(M0,N_DP):.1f}x    0.65 / 0.27, 2.4x  (5.2)")
 print(f"  eta_req at 1 mmol/L          {eta_req(1000,N_UN):.2f}       {eta_req(1000,N_DP):.2f}"
-      f"             3.79 / 1.58        (S4.4)")
+      f"             3.79 / 1.58        (5.3)")
 print(f"  M+ (eta_req = 1, umol/L)     {M_dag(N_UN):.0f}          {M_dag(N_DP):.0f}"
-      f"               51 / 203           (S4.4)")
+      f"               51 / 203           (5.3)")
 
-print("\nSection 4.2 -- where the effector starts")
+print("\nSection 5.1 -- where the effector starts")
 print(f"  fractional saturation        {100*sat(N_UN):.0f}%        {100*sat(N_DP):.0f}%"
       f"                78% / 46%")
 print(f"  G_max at the whole-cell figure (400 umol/L)  {G_max(400):.2f}        1.07")
 
-print("\nSection 4.4 -- the concentrations actually used")
+print("\nSection 5.3 -- the concentrations actually used")
 for M in (100.0, 1000.0, 30000.0):
     print(f"  M = {M:8.0f}   eta_req {eta_req(M,N_UN):.2f} / {eta_req(M,N_DP):.2f}"
           f"   penalty 1/{1/penalty(M):.0f}-fold")
 print(f"  penalty range over 1-30 mmol/L: {1/penalty(1000):.0f}- to {1/penalty(30000):.0f}-fold below baseline"
       "        six- to 147-fold")
 
-print("\nSection 5.1 -- worked example (Hara 2007, HEK293)")
+print("\nBox 1 -- worked example (Hara 2007, HEK293)")
 import math
 eta_obs = math.log(1.31 / 1.00) / math.log(5000.0 / 20.0)
 print(f"  eta observed                 {eta_obs:.2f}                             0.05")
